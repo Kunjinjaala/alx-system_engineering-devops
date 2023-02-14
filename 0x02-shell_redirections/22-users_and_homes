@@ -1,1 +1,2 @@
 #!/bin/bash
+grep username password uid gid name home shell /etc/passwd | sort
