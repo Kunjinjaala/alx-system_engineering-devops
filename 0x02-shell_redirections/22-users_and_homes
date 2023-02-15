@@ -1,2 +1,2 @@
 #!/bin/bash
-grep username password uid gid name home shell /etc/passwd | sort
+cut -d : -f 1,6 /etc/passwd | sort

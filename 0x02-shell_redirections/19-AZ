@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter input string:" | tr '[A,c]' '[Z,e]'
+tr A Z | tr c e
