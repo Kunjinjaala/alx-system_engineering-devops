@@ -2,4 +2,4 @@
 # Display listening ports with PID and program name
 # echo "Listening Ports:"
 
-ss -lp
+netsat -lp
